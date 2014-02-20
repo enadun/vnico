@@ -87,6 +87,9 @@ body {
 ol, ul {
   list-style: none;
 }
+#mylist{
+	list-style-image: url('images/corner_gray.png');
+}
 
 blockquote, q {
   quotes: none;
@@ -130,11 +133,18 @@ body {
 }
 
 .black-background {
-  background: #333333 url(images/bg/box_black.jpg) 3px -45px;
+  /*background: #333333 url(images/bg/box_black.jpg) 3px -45px;*/
+  background: #000000
 }
 
+.white-background-top{
+  background: #000000 /*url(images/bg/box_white.jpg)*/ 3px -45px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  }
 .white-background {
-  background: #f0f0f0 url(images/bg/box_white.jpg) 3px -45px;
+  /*background: #000000 /*url(images/bg/box_white.jpg)*/ 3px -45px;*/
   position: relative;
   margin: 0;
   padding: 0;
@@ -1916,6 +1926,23 @@ margin:20px 0;}
   margin-bottom: 15px;
   margin-left: 15px;
 }
+/*-----------------------------------*/
+/* Left Side Bar */
+/*-----------------------------------*/
+#leftsidebare{
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+/*-----------------------------------*/
+/* Right Side Bar */
+/*-----------------------------------*/
+#rightsidebare{
+  top: 0;
+  right: 0;
+  position: fixed;
+}
 
 /*-----------------------------------*/
 /* Footer */
@@ -1940,7 +1967,7 @@ footer h3 {
 
 .footer-bottom {
   padding: 20px 0;
-  background: #181818;
+  background: #111111;
 }
 
 .footer-content {
