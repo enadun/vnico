@@ -133,8 +133,7 @@ body {
 }
 
 .black-background {
-  /*background: #333333 url(images/bg/box_black.jpg) 3px -45px;*/
-  background: #000000
+  background: #333333 url(images/bg/box_black.jpg) 3px -45px;
 }
 
 .white-background-top{
@@ -143,8 +142,15 @@ body {
   margin: 0;
   padding: 0;
   }
-.white-background {
+ .white-background-bottom{
   /*background: #000000 /*url(images/bg/box_white.jpg)*/ 3px -45px;*/
+  position: relative;
+  margin: 0;
+  padding: 0;
+  }
+  
+.white-background {
+  background: #000000 url(images/bg/box_white.jpg) 3px -45px;
   position: relative;
   margin: 0;
   padding: 0;
